@@ -1,3 +1,11 @@
+https://wizardly-pike-6dc340.netlify.app/ 
+
+![slika1](https://user-images.githubusercontent.com/44465745/153459624-7683de4b-070a-4471-b03a-46f17b134603.jpg)
+
+![slika2](https://user-images.githubusercontent.com/44465745/153459621-f199daab-152e-4d5e-b9b3-5c01ba4e87b7.jpg)
+
+![slika3](https://user-images.githubusercontent.com/44465745/153459615-28ac1438-fcf2-4a33-9b26-5f7737e94e6a.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
