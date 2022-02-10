@@ -1,0 +1,59 @@
+.home_page {
+  margin-top: 100px;
+  height: 320px;
+  max-width: 968px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+.aboutus_title {
+  width: 968px;
+  text-align: center;
+  margin: auto;
+  color: #b0251e;
+}
+
+.title {
+  color: #b0251e;
+}
+
+.aboutus_div {
+  margin-top: 50px;
+  width: 968px;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  font-size: 1.3rem;
+  background-color: rgba(237, 234, 235, 0.8);
+  color: #b0251e;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.about_us_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 275px;
+  height: 150px;
+  justify-content: center;
+  border: 1px solid grey;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.about_us_content:hover {
+  width: 290px;
+  height: 165px;
+  transition: 0.7s;
+}
+
+.about_icon {
+  color: #b0251e;
+  font-size: 2rem;
+}

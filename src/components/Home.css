@@ -1,0 +1,111 @@
+.carousel_style {
+  text-align: center;
+  max-height: 500px;
+  margin: auto;
+  width: 968px;
+}
+
+.home_page {
+  margin-top: 100px;
+  height: 320px;
+  max-width: 968px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.home_page2 {
+  height: 220px;
+  max-width: 968px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.home_page_title {
+  padding-left: 150px;
+  font-size: 2rem;
+  color: #b0251e;
+}
+
+.home_page_title2 {
+  padding-right: 150px;
+  font-size: 2rem;
+  color: #b0251e;
+}
+
+.home_page_subtitle {
+  width: 553px;
+  text-align: right;
+}
+
+.home_page_subtitle2 {
+  width: 553px;
+  text-align: left;
+}
+
+.home_page_image {
+  padding-right: 150px;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.home_page_image2 {
+  padding-left: 150px;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.home_meals_img {
+  justify-content: left;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.home_meals_img2 {
+  justify-content: right;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.button_style {
+  display: flex;
+  background-color: #b0251e;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.button_style:hover {
+  background-color: #631511;
+}
+
+.button_div {
+  padding-top: 10px;
+  padding-left: 430px;
+}
+
+.button_div2 {
+  padding-top: 10px;
+  padding-right: 430px;
+}
+
+.button_icon {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  transition: 0.3s;
+}

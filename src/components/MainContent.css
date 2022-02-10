@@ -1,0 +1,71 @@
+.navbar {
+    font-family: "Poppins", sans-serif;
+    background-color: hsl(250, 60%, 99%);
+    height: 75px;
+    max-width: 968px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid #b0251e;
+  }
+  
+  .nav_logo {
+    padding-left: 1rem;
+    color: #b0251e;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav_logo:hover {
+    color: #b0251e;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .nav_menu {
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color: #e9e8e8;
+      padding: 2rem 1.5rem 4rem;
+      box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 1.5rem 1.5rem 0 0;
+      transition: 0.3s;
+    }
+  }
+  
+  .nav_list {
+    padding-right: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+  
+  .nav_icon {
+    font-size: 1.2rem;
+  }
+  
+  .nav_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.813rem;
+    color: #b0251e;
+    font-weight: 500;
+  }
+  
+  .nav_link:hover {
+    color: #631511;
+  }
+  
+  .button_link{
+    outline: none;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .button_link:hover{
+    color: #631511;
+  }
+  
+  

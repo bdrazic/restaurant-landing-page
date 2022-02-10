@@ -1,0 +1,50 @@
+.menu_container {
+    margin-top: 100px;
+
+    max-width: 968px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    font-family: "Poppins", sans-serif;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  .menu_list_item{
+      border-bottom: 1px solid #b0251e;
+      padding: 10px;
+  }
+
+  .menu_list_item:last-child{
+      border-bottom: none;
+  }
+
+  .menu_image{
+      justify-content: right;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      align-self: center;
+      margin-left: 85px;
+  }
+
+  .menu_image2{
+    justify-content: left;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 85px;
+}
+
+.menu_title{
+    color:#b0251e;
+}
+
+.dish_title{
+    color: #631511;
+}

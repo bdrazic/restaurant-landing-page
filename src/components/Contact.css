@@ -1,0 +1,100 @@
+.contact_div {
+  margin-top: 100px;
+  height: auto;
+  max-width: 968px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  padding-left: 50px;
+}
+
+.contact_title {
+  width: 968px;
+  text-align: center;
+  margin: auto;
+  color: #b0251e;
+}
+
+.title {
+  color: #b0251e;
+}
+
+.contact_information {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact__titles {
+  font-size: 1rem;
+}
+
+.contact__subtitles {
+  font-size: 0.7rem;
+}
+
+.contact_icon {
+  font-size: 2rem;
+  color: #b0251e;
+  margin-right: 0.75rem;
+}
+
+.contact_content {
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact_label {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+}
+
+.contact_input {
+  width: 100%;
+  border: #b0251e;
+  outline: 1px solid #b0251e;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.contact_container {
+  row-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding-left: 230px;
+  padding-top: 50px;
+}
+
+.contact_form {
+  padding-right: 200px;
+  padding-top: 50px;
+}
+
+.button_style1 {
+  display: flex;
+  background-color: #631511;
+  color: #fff;
+  padding: 0.3rem;
+  margin-left: 100px;
+  border-radius: 0.1rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: end;
+}
+
+.button_icon {
+  font-size: 1.25rem;
+
+}
+
+.button_style1:hover{
+    background-color:#631511;
+}
+
+.button_icon:hover{
+    margin-left: 0.5rem;
+    transition: 0.3s;
+}
